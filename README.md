@@ -38,3 +38,30 @@ Follow-up: what if you can't use division?
 **Solution**: [Java](https://github.com/iapurba/Daily-Coding-Problem/blob/main/java/DCP002ProductArray.java) | [Python](https://github.com/iapurba/Daily-Coding-Problem/blob/main/python/dcp002_product_array.py)
 
 * * *
+
+**Problem #3** [Medium]
+
+This problem was asked by Google.
+
+Given the root to a binary tree, implement `serialize(root)`, which serializes the tree into a string, and `deserialize(s)`, which deserializes the string back into the tree.
+
+For example, given the following `Node` class
+
+```
+class Node:
+    def __init__(self, val, left=None, right=None):
+        self.val = val
+        self.left = left
+        self.right = right
+```    
+  
+The following test should pass:
+
+```
+node = Node('root', Node('left', Node('left.left')), Node('right'))
+assert deserialize(serialize(node)).left.left.val == 'left.left'
+```
+
+**Solution**: [Java](https://github.com/iapurba/Daily-Coding-Problem/blob/main/java/DCP003SerializeBinaryTree.java) | [Python](https://github.com/iapurba/Daily-Coding-Problem/blob/main/python/dcp003_serialize_binary_tree.py)
+
+* * *
