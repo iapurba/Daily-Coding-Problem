@@ -112,3 +112,17 @@ If using a language that has no pointers (such as Python), you can assume you ha
 **Solution**: [Java](https://github.com/iapurba/Daily-Coding-Problem/blob/main/java/DCP006XORLinkedList.java) | [Python](https://github.com/iapurba/Daily-Coding-Problem/blob/main/python/dcp006_xor_linked_list.py)
 
 * * *
+
+**Problem #7** [Medium]
+
+This problem was asked by Facebook.
+
+Given the mapping `a = 1, b = 2, ... z = 26`, and an encoded message, count the number of ways it can be decoded.
+
+For example, the message `'111'` would give `3`, since it could be decoded as `'aaa'`, `'ka'`, and `'ak'`.
+
+You can assume that the messages are decodable. For example, `'001'` is not allowed.
+
+**Solution**: [Java](https://github.com/iapurba/Daily-Coding-Problem/blob/main/java/DCP007DecodeWays.java) | [Python](https://github.com/iapurba/Daily-Coding-Problem/blob/main/python/dcp007_decode_ways.py)
+
+* * *
