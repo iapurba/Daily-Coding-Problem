@@ -126,3 +126,28 @@ You can assume that the messages are decodable. For example, `'001'` is not allo
 **Solution**: [Java](https://github.com/iapurba/Daily-Coding-Problem/blob/main/java/DCP007DecodeWays.java) | [Python](https://github.com/iapurba/Daily-Coding-Problem/blob/main/python/dcp007_decode_ways.py)
 
 * * *
+
+**Problem #8** [Easy]
+
+This problem was asked by Google.
+
+A unival tree (which stands for "universal value") is a tree where all nodes under it have the same value.
+
+Given the root to a binary tree, count the number of unival subtrees.
+
+For example, the following tree has 5 unival subtrees:
+
+```
+   0
+  / \
+ 1   0
+    / \
+   1   0
+  / \
+ 1   1
+ ```
+
+**Solution**: [Java](https://github.com/iapurba/Daily-Coding-Problem/blob/main/java/DCP008CountUnivalSubtree.java) | [Python](https://github.com/iapurba/Daily-Coding-Problem/blob/main/python/dcp008_count_unival_subtree.py)
+
+* * *
+
