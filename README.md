@@ -79,3 +79,24 @@ You can modify the input array in-place.
 **Solution**: [Java](https://github.com/iapurba/Daily-Coding-Problem/blob/main/java/DCP004MissingPositiveInt.java) | [Python](https://github.com/iapurba/Daily-Coding-Problem/blob/main/python/dcp004_smallest_positive_int.py)
 
 * * *
+
+**Problem #5** [Hard]
+
+This problem was asked by Jane Street.
+
+`cons(a, b)` constructs a pair, and `car(pair)` and `cdr(pair)` returns the first and last element of that pair. For example, `car(cons(3, 4))` returns `3`, and `cdr(cons(3, 4))` returns `4`.
+
+Given this implementation of cons:
+
+```
+def cons(a, b):
+    def pair(f):
+        return f(a, b)
+    return pair
+```
+
+Implement `car` and `cdr`.
+
+**Solution**: [Python](https://github.com/iapurba/Daily-Coding-Problem/blob/main/python/dcp005_construct_pair.py)
+
+* * *
