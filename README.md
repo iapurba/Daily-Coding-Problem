@@ -211,7 +211,7 @@ For example, if `N` is `4`, then there are `5` unique ways:
 What if, instead of being able to climb 1 or 2 steps at a time, you could climb any number from a set of positive integers `X`? For example, if `X = {1, 3, 5}`, you could climb `1`, `3`, or `5` steps at a time.
 
 
-**Solution**: [Java](https://github.com/iapurba/Daily-Coding-Problem/blob/main/java/DCP010JobScheduler.java) | [Python](https://github.com/iapurba/Daily-Coding-Problem/blob/main/python/dcp010_job_scheduler.py)
+**Solution**: [Java](https://github.com/iapurba/Daily-Coding-Problem/blob/main/java/DCP012StaircaseClimb.java) | [Python](https://github.com/iapurba/Daily-Coding-Problem/blob/main/python/dcp012_staircase_climb.py)
 
 * * *
 
