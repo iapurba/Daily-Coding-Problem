@@ -190,7 +190,7 @@ For example, given the query string `de` and the set of strings `[dog, deer, dea
 Hint: Try preprocessing the dictionary into a more efficient data structure to speed up queries.
 
 
-**Solution**: [Java](https://github.com/iapurba/Daily-Coding-Problem/blob/main/java/DCP010JobScheduler.java) | [Python](https://github.com/iapurba/Daily-Coding-Problem/blob/main/python/dcp010_job_scheduler.py)
+**Solution**: [Java](https://github.com/iapurba/Daily-Coding-Problem/blob/main/java/DCP011AutocompleteSystem.java) | [Python](https://github.com/iapurba/Daily-Coding-Problem/blob/main/python/dcp011_autocomplete_system.py)
 
 * * *
 
