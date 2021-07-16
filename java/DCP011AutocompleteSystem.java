@@ -2,6 +2,13 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class DCP011AutocompleteSystem {
+  /*
+   * Implement an autocomplete system. That is, given a query string s and a set
+   * of all possible query strings, return all strings in the set that have s as a
+   * prefix. For example, given the query string de and the set of strings [dog,
+   * deer, deal], return [deer, deal].
+   */
+  
   public static List<String> autocomplete(List<String> wordlist, String prefix) {
     if (wordlist.isEmpty() || prefix.isEmpty() || prefix == null) {
       return new ArrayList<String>();
