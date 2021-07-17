@@ -215,3 +215,14 @@ What if, instead of being able to climb 1 or 2 steps at a time, you could climb 
 
 * * *
 
+**Problem #15** [Medium]
+
+This problem was asked by Facebook.
+
+Given a stream of elements too large to store in memory, pick a random element from the stream with uniform probability.
+
+
+**Solution**: [Java](https://github.com/iapurba/Daily-Coding-Problem/blob/main/java/DCP015PickingRandomElement.java) | [Python](https://github.com/iapurba/Daily-Coding-Problem/blob/main/python/dcp015_picking_random_element.py)
+
+* * *
+
