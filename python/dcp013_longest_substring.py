@@ -11,27 +11,29 @@ distinct characters is "bcb".
 
 
 def longest_substring_with_k_distinct_chars(s: str, k: int) -> str:
+    if k == 0:
+        return 0
 
-    longest = ""
+    # Keep a running window
+    bounds = (0, 0)
+    seen = {}
+    max_length = 0
 
-    for i in range(len(s)):
-        sub_str = ""
-        seen = set()
-        for j in range(i, len(s)):
-            if s[j] not in seen:
-                seen.add(s[j])
-                print(seen)
-                if len(seen) > k:
-                    if len(sub_str) > len(longest):
-                        longest = sub_str
-                else:
-                    sub_str += s[j]
-            else:
-                sub_str += s[j]
-        print(sub_str)
+    for i, ch in enumerate(s):
+        seen[ch] = i
+        if len(seen) <= k:
+            lower_bound = bounds[0]  # lower bound remain same
+        else:
+            key_to_pop = min(seen, key=seen.get)  # pop key with min value
+            lower_bound = seen.pop(key_to_pop) + 1
 
-    return longest
+        bounds = (lower_bound, bounds[1] + 1)
+        max_length = max(max_length, bounds[1] - bounds[0])
+
+    return max_length
 
 
 if __name__ == "__main__":
-    print(longest_substring_with_k_distinct_chars("abcccc", 2))
+    print(longest_substring_with_k_distinct_chars("abcba", 2))
+    print(longest_substring_with_k_distinct_chars("xxxpabcdpqeex", 3))
+    print(longest_substring_with_k_distinct_chars("xwxwxwwxpqp", 2))
