@@ -18,14 +18,13 @@ def longest_substring_with_k_distinct_chars(s: str, k: int) -> str:
     bounds = (0, 0)
     seen = {}
     max_length = 0
+    lower_bound = bounds[0]
 
     for i, ch in enumerate(s):
         seen[ch] = i
-        if len(seen) <= k:
-            lower_bound = bounds[0]  # lower bound remain same
-        else:
+        if len(seen) > k:
             key_to_pop = min(seen, key=seen.get)  # pop key with min value
-            lower_bound = seen.pop(key_to_pop) + 1
+            lower_bound = seen.pop(key_to_pop) + 1 # update lower bound
 
         bounds = (lower_bound, bounds[1] + 1)
         max_length = max(max_length, bounds[1] - bounds[0])
