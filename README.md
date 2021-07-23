@@ -333,3 +333,15 @@ Do this in O(M + N) time (where M and N are the lengths of the lists) and consta
 
 * * *
 
+**Problem #21** [Easy]
+
+This problem was asked by Snapchat.
+
+Given an array of time intervals (start, end) for classroom lectures (possibly overlapping), find the minimum number of rooms required.
+
+For example, given `[(30, 75), (0, 50), (60, 150)]`, you should return `2`.
+
+**Solution**: [Java](https://github.com/iapurba/Daily-Coding-Problem/blob/main/java/DCP020LinkedListIntersection.java) | [Python](https://github.com/iapurba/Daily-Coding-Problem/blob/main/python/dcp021_minimum_rooms.py)
+
+* * *
+
