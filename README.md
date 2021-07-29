@@ -380,3 +380,16 @@ and start = `(3, 0)` (bottom left) and end = `(0, 0)` (top left), the minimum nu
 
 * * *
 
+**Problem #27** [Easy]
+
+This problem was asked by Facebook.
+
+Given a string of round, curly, and square open and closing brackets, return whether the brackets are balanced (well-formed).
+
+For example, given the string `"([])[]({})"`, you should return `true`.
+
+Given the string `"([)]"` or `"((()"`, you should return `false`.
+
+**Solution**: [Java](https://github.com/iapurba/Daily-Coding-Problem/blob/main/java/DCP027BlancedParenthesis.java) | [Python](https://github.com/iapurba/Daily-Coding-Problem/blob/main/python/dcp027_blanced_parenthesis.py)
+
+* * *
