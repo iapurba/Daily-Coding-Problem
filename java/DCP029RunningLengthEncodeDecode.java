@@ -1,4 +1,4 @@
-public class DCP027RunningLengthEncodeDecode {
+public class DCP029RunningLengthEncodeDecode {
 
   public static String encode(String s) {
     if (s.length() == 0) {
