@@ -393,3 +393,15 @@ Given the string `"([)]"` or `"((()"`, you should return `false`.
 **Solution**: [Java](https://github.com/iapurba/Daily-Coding-Problem/blob/main/java/DCP027BlancedParenthesis.java) | [Python](https://github.com/iapurba/Daily-Coding-Problem/blob/main/python/dcp027_blanced_parenthesis.py)
 
 * * *
+
+**Problem #29** [Easy]
+
+This problem was asked by Amazon.
+
+Run-length encoding is a fast and simple method of encoding strings. The basic idea is to represent repeated successive characters as a single count and character. For example, the string `"AAAABBBCCDAA"` would be encoded as `"4A3B2C1D2A"`.
+
+Implement run-length encoding and decoding. You can assume the string to be encoded have no digits and consists solely of alphabetic characters. You can assume the string to be decoded is valid.
+
+**Solution**: [Java](https://github.com/iapurba/Daily-Coding-Problem/blob/main/java/DCP027RunningLengthEncodeDecode.java) | [Python](https://github.com/iapurba/Daily-Coding-Problem/blob/main/python/dcp029_run_length_encode_decode.py)
+
+* * *
