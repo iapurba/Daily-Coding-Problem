@@ -380,6 +380,20 @@ and start = `(3, 0)` (bottom left) and end = `(0, 0)` (top left), the minimum nu
 
 * * *
 
+**Problem #26** [Medium]
+
+This problem was asked by Google.
+
+Given a singly linked list and an integer `k`, remove the kth last element from the list. `k` is guaranteed to be smaller than the length of the list.
+
+The list is very long, so making more than one pass is prohibitively expensive.
+
+Do this in constant space and in one pass.
+
+**Solution**: [Java](https://github.com/iapurba/Daily-Coding-Problem/blob/main/java/DCP026RemoveKthLastElement.java) | [Python](https://github.com/iapurba/Daily-Coding-Problem/blob/main/python/dcp026_remove_kth_last_element.py)
+
+* * *
+
 **Problem #27** [Easy]
 
 This problem was asked by Facebook.
@@ -402,6 +416,6 @@ Run-length encoding is a fast and simple method of encoding strings. The basic i
 
 Implement run-length encoding and decoding. You can assume the string to be encoded have no digits and consists solely of alphabetic characters. You can assume the string to be decoded is valid.
 
-**Solution**: [Java](https://github.com/iapurba/Daily-Coding-Problem/blob/main/java/DCP027RunningLengthEncodeDecode.java) | [Python](https://github.com/iapurba/Daily-Coding-Problem/blob/main/python/dcp029_run_length_encode_decode.py)
+**Solution**: [Java](https://github.com/iapurba/Daily-Coding-Problem/blob/main/java/DCP029RunningLengthEncodeDecode.java) | [Python](https://github.com/iapurba/Daily-Coding-Problem/blob/main/python/dcp029_run_length_encode_decode.py)
 
 * * *
